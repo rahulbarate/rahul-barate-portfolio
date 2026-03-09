@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rahul Barate - Freelancer Game Developer</title>
+    <title>Rahul Barate - Unity Certified Associate Game Developer</title>
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -41,8 +41,8 @@
             <!-- Left Side: Name & Title -->
             <div class="text-center md:text-left mb-8 md:mb-0">
                 <h1 class="text-4xl md:text-5xl font-bold text-white">RAHUL ANIL BARATE</h1>
-                <h2 class="text-xl md:text-2xl font-light text-cyan-400 mt-2">Freelance Game Developer (Unity Game
-                    Engine)</h2>
+                <h2 class="text-xl md:text-2xl font-light text-cyan-400 mt-2">Unity Certified Associate Game Developer
+                </h2>
                 <!-- New Contact Info Section -->
                 <div
                     class="mt-4 flex flex-col sm:flex-row sm:items-center justify-center md:justify-start gap-x-6 gap-y-2">
@@ -58,8 +58,8 @@
             </div>
             <!-- Right Side: Contact Links -->
             <div class="flex space-x-6">
-                <a href="#" class="text-gray-400 hover:text-cyan-400 transition-colors duration-300"
-                    aria-label="Dev.to Blog">
+                <a href="https://dev.to/rahul_barate_e965377330fe"
+                    class="text-gray-400 hover:text-cyan-400 transition-colors duration-300" aria-label="Dev.to Blog">
                     <i class="fab fa-dev fa-2x"></i>
                 </a>
                 <a href="https://www.linkedin.com/in/rahul-barate-851018182/"
@@ -79,34 +79,94 @@
 
             <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-12">
 
-                <!-- Project 1: Dynamic Dino (Published Game) -->
                 <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg project-card transition-all duration-300">
-                    <div class="md:flex">
-                        <div class="md:w-1/2">
+                    <div class="md:flex h-full">
+                        <div class="p-8 md:w-1/2 flex flex-col justify-center">
+                            <h4 class="text-2xl font-bold text-white mb-2">Letter Logic</h4>
+                            <div>
+                                <span
+                                    class="text-sm font-semibold text-green-400 bg-green-900/50 px-3 py-1 rounded-full inline-block mb-4">In
+                                    Testing phase</span>
+                            </div>
+                            <p class="text-gray-400 mb-6">Letter Logic transforms children's screen time into fun and
+                                meaningful learning experience through playful problem-solving.</p>
+
+                            <div
+                                class="relative group rounded-lg overflow-hidden shadow-md w-full aspect-video bg-gray-900">
+                                <div id="letterLogicTrack"
+                                    class="flex transition-transform duration-500 ease-in-out h-full w-full">
+                                    <img src="assets/SS1.jpg" alt="Letter Logic Screenshot 1"
+                                        class="w-full h-full object-contain flex-shrink-0">
+                                    <img src="assets/SS2.jpg" alt="Letter Logic Screenshot 2"
+                                        class="w-full h-full object-contain flex-shrink-0">
+                                    <img src="assets/SS3.jpg" alt="Letter Logic Screenshot 3"
+                                        class="w-full h-full object-contain flex-shrink-0">
+                                    <img src="assets/SS4.jpg" alt="Letter Logic Screenshot 4"
+                                        class="w-full h-full object-contain flex-shrink-0">
+                                </div>
+
+                                <button onclick="moveCarousel(-1)"
+                                    class="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-60 text-white p-2 md:p-3 rounded-full hover:bg-opacity-90 transition opacity-0 group-hover:opacity-100 focus:outline-none z-10">
+                                    <i class="fas fa-chevron-left"></i>
+                                </button>
+
+                                <button onclick="moveCarousel(1)"
+                                    class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-60 text-white p-2 md:p-3 rounded-full hover:bg-opacity-90 transition opacity-0 group-hover:opacity-100 focus:outline-none z-10">
+                                    <i class="fas fa-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div
+                            class="p-8 md:w-1/2 flex flex-col justify-center border-t md:border-t-0 md:border-l border-gray-700">
+                            <h5 class="font-semibold text-white mb-3 text-lg">Key Skills Demonstrated:</h5>
+                            <ul class="list-disc list-inside text-gray-400 space-y-1 mb-8">
+                                <li>Daily rewards system with mystery mechanic</li>
+                                <li>In-game economy with shop</li>
+                                <li>Milestone-driven long-term progression</li>
+                                <li>Physics-based hazard interaction</li>
+                                <li>Upgradeable time-based powerup system</li>
+                                <li>Background music and sound effects Integration</li>
+                                <li>Google Ad Integration(Banner and Reward ads)</li>
+                                <li>Google Play Console Leaderboard Integration</li>
+                                <li>Full Project Lifecycle & Shipping</li>
+                            </ul>
+                            <a href="https://forms.gle/4SAa53MSWizqjPuj8"
+                                class="bg-cyan-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-cyan-600 transition-colors duration-300 text-center mt-auto">
+                                <i></i> Request Early Access
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg project-card transition-all duration-300">
+                    <div class="md:flex h-full">
+                        <div class="p-8 md:w-1/2 flex flex-col justify-center">
+                            <h4 class="text-2xl font-bold text-white mb-2">Dynamic Dino</h4>
+                            <div>
+                                <span
+                                    class="text-sm font-semibold text-green-400 bg-green-900/50 px-3 py-1 rounded-full inline-block mb-4">PUBLISHED</span>
+                            </div>
+                            <p class="text-gray-400 mb-6">A fun, fast-paced 2D endless runner successfully developed and
+                                shipped to the Google Play Store.</p>
+
                             <a href="https://youtu.be/HDHFwrilOBA?si=lg2DT5JV_KH9qkTe" target="_blank"
-                                rel="noopener noreferrer" class="relative block group">
+                                rel="noopener noreferrer"
+                                class="relative block group rounded-lg overflow-hidden shadow-md">
                                 <img src="https://img.youtube.com/vi/HDHFwrilOBA/maxresdefault.jpg"
                                     onerror="this.onerror=null;this.src='https://placehold.co/600x400/1a202c/ffffff?text=Video+Thumbnail+Not+Found';"
-                                    alt="Gameplay video of City of Walking Dead" class="w-full h-full object-cover">
-                                <!-- Play button overlay -->
+                                    alt="Gameplay video of Dynamic Dino" class="w-full h-full object-cover">
                                 <div
                                     class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <i class="fas fa-play-circle fa-5x text-white text-opacity-80"></i>
                                 </div>
                             </a>
-                            <!-- Replace with a screenshot or GIF of your game
-                            <img src="https://placehold.co/600x400/1a202c/9f7aea?text=Dynamic+Dino+Gameplay" 
-                                 onerror="this.onerror=null;this.src='https://placehold.co/600x400/1a202c/ffffff?text=Image+Not+Found';"
-                                 alt="Dynamic Dino Gameplay Screenshot" class="w-full h-full object-cover"> -->
                         </div>
-                        <div class="p-8 md:w-1/2 flex flex-col justify-center">
-                            <h4 class="text-2xl font-bold text-white mb-2">Dynamic Dino</h4>
-                            <span
-                                class="text-sm font-semibold text-green-400 bg-green-900/50 px-3 py-1 rounded-full inline-block mb-4">PUBLISHED</span>
-                            <p class="text-gray-400 mb-4">A fun, fast-paced 2D endless runner successfully developed and
-                                shipped to the Google Play Store.</p>
-                            <h5 class="font-semibold text-white mb-2">Key Skills Demonstrated:</h5>
-                            <ul class="list-disc list-inside text-gray-400 space-y-1 mb-6">
+
+                        <div
+                            class="p-8 md:w-1/2 flex flex-col justify-center border-t md:border-t-0 md:border-l border-gray-700">
+                            <h5 class="font-semibold text-white mb-3 text-lg">Key Skills Demonstrated:</h5>
+                            <ul class="list-disc list-inside text-gray-400 space-y-1 mb-8">
                                 <li>Full Project Lifecycle & Shipping</li>
                                 <li>2D Gameplay Mechanics</li>
                                 <li>Background music and sound effects Integration</li>
@@ -114,40 +174,43 @@
                                 <li>Google Ad Integration(Banner and Reward ads)</li>
                                 <li>Google Play Console Leaderboard Integration</li>
                             </ul>
-                            <!-- Replace '#' with your actual Play Store link -->
                             <a href="https://play.google.com/store/apps/details?id=com.wolfsgamestudio.dynamicdino&pcampaignid=web_share"
-                                class="bg-cyan-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-cyan-600 transition-colors duration-300 text-center">
+                                class="bg-cyan-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-cyan-600 transition-colors duration-300 text-center mt-auto">
                                 <i class="fab fa-google-play mr-2"></i> Download from Play Store
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 2: Open-world Zombie Shooter -->
                 <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg project-card transition-all duration-300">
-                    <div class="md:flex">
-                        <div class="md:w-1/2">
+                    <div class="md:flex h-full">
+                        <div class="p-8 md:w-1/2 flex flex-col justify-center">
+                            <h4 class="text-2xl font-bold text-white mb-2">City of Walking Dead</h4>
+                            <div>
+                                <span
+                                    class="text-sm font-semibold text-blue-400 bg-blue-900/50 px-3 py-1 rounded-full inline-block mb-4">TECHNICAL
+                                    SHOWCASE</span>
+                            </div>
+                            <p class="text-gray-400 mb-6">A comprehensive 3D open-world zombie shooter developed as a
+                                major college project, showcasing complex systems.</p>
+
                             <a href="https://youtu.be/bl8lhpqQlrE?si=X0aLOuOoE61kccbs" target="_blank"
-                                rel="noopener noreferrer" class="relative block group">
+                                rel="noopener noreferrer"
+                                class="relative block group rounded-lg overflow-hidden shadow-md">
                                 <img src="https://img.youtube.com/vi/bl8lhpqQlrE/maxresdefault.jpg"
                                     onerror="this.onerror=null;this.src='https://placehold.co/600x400/1a202c/ffffff?text=Video+Thumbnail+Not+Found';"
                                     alt="Gameplay video of City of Walking Dead" class="w-full h-full object-cover">
-                                <!-- Play button overlay -->
                                 <div
                                     class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <i class="fas fa-play-circle fa-5x text-white text-opacity-80"></i>
                                 </div>
                             </a>
                         </div>
-                        <div class="p-8 md:w-1/2 flex flex-col justify-center">
-                            <h4 class="text-2xl font-bold text-white mb-2">City of Walking Dead</h4>
-                            <span
-                                class="text-sm font-semibold text-blue-400 bg-blue-900/50 px-3 py-1 rounded-full inline-block mb-4">TECHNICAL
-                                SHOWCASE</span>
-                            <p class="text-gray-400 mb-4">A comprehensive 3D open-world zombie shooter developed as a
-                                major college project, showcasing complex systems.</p>
-                            <h5 class="font-semibold text-white mb-2">Key Skills Demonstrated:</h5>
-                            <ul class="list-disc list-inside text-gray-400 space-y-1 mb-6">
+
+                        <div
+                            class="p-8 md:w-1/2 flex flex-col justify-start border-t md:border-t-0 md:border-l border-gray-700">
+                            <h5 class="font-semibold text-white mb-3 text-lg">Key Skills Demonstrated:</h5>
+                            <ul class="list-disc list-inside text-gray-400 space-y-1 mb-8">
                                 <li>3D Open-World Systems</li>
                                 <li>Advanced Zombie AI & Pathfinding</li>
                                 <li>First-Person Shooter (FPS) Mechanics</li>
@@ -158,44 +221,43 @@
                     </div>
                 </div>
 
-                <!-- Project 3: New Zombie Shooter (WIP) -->
                 <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg project-card transition-all duration-300">
-                    <div class="md:flex">
-                        <div class="md:w-1/2">
+                    <div class="md:flex h-full">
+                        <div class="p-8 md:w-1/2 flex flex-col justify-center">
+                            <h4 class="text-2xl font-bold text-white mb-2">Last Light</h4>
+                            <div>
+                                <span
+                                    class="text-sm font-semibold text-yellow-400 bg-yellow-900/50 px-3 py-1 rounded-full inline-block mb-4">WORK
+                                    IN PROGRESS</span>
+                            </div>
+                            <p class="text-gray-400 mb-6">My current project, focusing on next-gen features and pushing
+                                my development skills further.</p>
+
                             <a href="https://youtu.be/KXw-R9eNXk8?si=m_a6SA13RxyJts8l" target="_blank"
-                                rel="noopener noreferrer" class="relative block group">
+                                rel="noopener noreferrer"
+                                class="relative block group rounded-lg overflow-hidden shadow-md">
                                 <img src="https://img.youtube.com/vi/KXw-R9eNXk8/maxresdefault.jpg"
                                     onerror="this.onerror=null;this.src='https://placehold.co/600x400/1a202c/ffffff?text=Video+Thumbnail+Not+Found';"
-                                    alt="Gameplay video of City of Walking Dead" class="w-full h-full object-cover">
-                                <!-- Play button overlay -->
+                                    alt="Gameplay video of Last Light" class="w-full h-full object-cover">
                                 <div
                                     class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <i class="fas fa-play-circle fa-5x text-white text-opacity-80"></i>
                                 </div>
                             </a>
-                            <!-- Replace with a screenshot or embed your LinkedIn video if possible
-                            <img src="https://placehold.co/600x400/1a202c/e53e3e?text=New+Zombie+Game+WIP"
-                                onerror="this.onerror=null;this.src='https://placehold.co/600x400/1a202c/ffffff?text=Image+Not+Found';"
-                                alt="New Zombie Game WIP Screenshot" class="w-full h-full object-cover"> -->
                         </div>
-                        <div class="p-8 md:w-1/2 flex flex-col justify-center">
-                            <h4 class="text-2xl font-bold text-white mb-2">Last Light</h4>
-                            <span
-                                class="text-sm font-semibold text-yellow-400 bg-yellow-900/50 px-3 py-1 rounded-full inline-block mb-4">WORK
-                                IN PROGRESS</span>
-                            <p class="text-gray-400 mb-4">My current project, focusing on next-gen features and pushing
-                                my development skills further.</p>
-                            <h5 class="font-semibold text-white mb-2">Key Skills Demonstrated:</h5>
-                            <ul class="list-disc list-inside text-gray-400 space-y-1 mb-6">
+
+                        <div
+                            class="p-8 md:w-1/2 flex flex-col justify-center border-t md:border-t-0 md:border-l border-gray-700">
+                            <h5 class="font-semibold text-white mb-3 text-lg">Key Skills Demonstrated:</h5>
+                            <ul class="list-disc list-inside text-gray-400 space-y-1 mb-8">
                                 <li>Advanced Lighting & Rendering</li>
                                 <li>Complex Character Controller</li>
                                 <li>Audio Dialogues</li>
                                 <li>Modern Development Workflow</li>
                             </ul>
-                            <!-- Link to your LinkedIn video post -->
                             <a href="https://www.linkedin.com/in/rahul-barate-851018182/"
-                                class="bg-gray-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-gray-700 transition-colors duration-300 text-center">
-                                Watch Dev Log on LinkedIn
+                                class="bg-gray-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-gray-700 transition-colors duration-300 text-center mt-auto">
+                                Check progress on LinkedIn
                             </a>
                         </div>
                     </div>
@@ -228,6 +290,22 @@
 
     </div>
 
+
+    <script>
+        let currentSlideIndex = 0;
+
+        function moveCarousel(direction) {
+            const track = document.getElementById('letterLogicTrack');
+            // Count how many images are inside the track
+            const totalSlides = track.children.length;
+
+            // Calculate the new index, wrapping around if necessary
+            currentSlideIndex = (currentSlideIndex + direction + totalSlides) % totalSlides;
+
+            // Move the track by translating it horizontally on the X axis
+            track.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
+        }
+    </script>
 </body>
 
 </html>
